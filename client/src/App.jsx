@@ -328,8 +328,8 @@ export default function App() {
             <div className="w-14 h-14 rounded-full border-2 border-[var(--brass)] flex items-center justify-center mb-4">
               <Shield size={26} color="var(--brass)" strokeWidth={1.5} />
             </div>
-            <div className="text-[var(--brass)] text-xs tracking-[0.35em] uppercase" style={{ fontFamily: "Oswald, sans-serif" }}>
-              Duty Register
+            <div className="text-[var(--brass)] text-xl text-center underline tracking-[0.35em] uppercase" style={{ fontFamily: "Oswald, sans-serif" }}>
+              J.P Road police station Duty Register
             </div>
           </div>
 
