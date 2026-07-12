@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --ink-950: #10141F;
+  --ink-800: #1B2236;
+  --ink-700: #232C45;
+  --ink-600: #2C3654;
+  --paper: #E8E3D3;
+  --paper-dim: #B7B1A0;
+  --brass: #C79A46;
+  --brass-dim: #8A6E38;
+  --khaki: #8B8368;
+  --moss: #5B8266;
+  --rust: #A6483A;
+  --steel: #5C7A9E;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
