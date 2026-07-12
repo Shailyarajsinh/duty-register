@@ -180,7 +180,7 @@ export default function App() {
   async function handleLogout() {
     try {
       await api.logout();
-    } catch (e) {}
+    } catch (e) { }
     setAuthed(false);
     setOfficer(null);
     setEntries([]);
@@ -413,7 +413,7 @@ export default function App() {
                   style={{ fontFamily: "Oswald, sans-serif" }}>UNLOCK REGISTER</button>
                 <div className="mt-4 border border-[var(--ink-600)] rounded-sm px-3 py-2.5 text-center">
                   <div className="text-[var(--paper-dim)] text-xs">
-                    Forgot your PIN? Contact the developer team — they can retrieve it for you.
+                    Forgot your PIN? Contact the developer Shailyarajsinh Mahida — they can retrieve it for you.
                   </div>
                 </div>
               </>
@@ -696,10 +696,12 @@ export default function App() {
       )}
 
       {reportData && (
+
         <div className="print-only p-8 bg-white text-black" style={{ fontFamily: "Inter, sans-serif" }}>
+          <div className="text-xl font-bold tracking-wide text-wrap text-center pb-5">J.P ROAD POLICE STATION VADODARA CITY </div>
           <div className="flex items-center justify-between border-b-2 border-black pb-3 mb-4">
             <div>
-              <div className="text-xl font-bold tracking-wide">DUTY REGISTER — OFFICIAL REPORT</div>
+              <div className="text-xl font-bold tracking-wide text-wrap">DUTY REGISTER — OFFICIAL REPORT</div>
               <div className="text-sm mt-1">{officer.name} &nbsp;·&nbsp; Badge {officer.badgeNo}</div>
             </div>
             <div className="text-sm text-right">
